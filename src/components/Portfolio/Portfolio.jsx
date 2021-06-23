@@ -29,7 +29,7 @@ const data = [
     responsibilities: [
       'Creating new back-end REST libraries in a micro service architecture using Spring Boot',
     ],
-    date: '10/2017 – 04/2018',
+    date: '08/2018 – 04/2019',
     technologies: ['Java 8', 'Spring Boot', 'RabbitMQ', 'MongoDB', 'Git'],
   },
   {
