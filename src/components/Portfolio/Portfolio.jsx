@@ -10,7 +10,7 @@ const data = [
       'Implementing new features on the existing applications',
       'Participating in the creation and evolution of the new features',
     ],
-    date: '05/2018 – present',
+    date: '05/2020 – present',
     technologies: ['Java 8', 'JPA', 'Oracle Database', 'Angular', 'Git'],
   },
   {
