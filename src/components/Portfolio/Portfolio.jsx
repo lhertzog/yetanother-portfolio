@@ -1,6 +1,6 @@
 import { Container, Grid, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
-import MissionCard from '../Mission/MissionCard';
+import MissionCard from '../MissionCard/MissionCard';
 
 const data = [
   {

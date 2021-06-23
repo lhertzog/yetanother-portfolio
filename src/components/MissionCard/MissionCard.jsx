@@ -88,8 +88,8 @@ MissionCard.propTypes = {
   title: PropTypes.string.isRequired,
   date: PropTypes.instanceOf(Date).isRequired,
   location: PropTypes.string.isRequired,
-  responsibilities: PropTypes.array.string.isRequired,
-  technologies: PropTypes.array.string.isRequired,
+  responsibilities: PropTypes.arrayOf(String).isRequired,
+  technologies: PropTypes.arrayOf(String).isRequired,
 };
 
 export default MissionCard;
