@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
-
 import CodeIcon from '@material-ui/icons/Code';
 import {
   AppBar,
@@ -10,6 +8,7 @@ import {
   Toolbar,
   Typography,
 } from '@material-ui/core';
+import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -44,6 +43,11 @@ const NavBar = ({ prefersDarkMode, setstateDarkMode }) => {
       </Toolbar>
     </AppBar>
   );
+};
+
+NavBar.propTypes = {
+  prefersDarkMode: PropTypes.bool.isRequired,
+  setstateDarkMode: PropTypes.func.isRequired,
 };
 
 export default NavBar;

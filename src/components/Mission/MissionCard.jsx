@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
@@ -11,10 +9,9 @@ import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
-  root: {},
-
   expand: {
     transform: 'rotate(0deg)',
     transition: theme.transitions.create('transform', {
@@ -26,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const FlexMultimedia = ({
+const MissionCard = ({
   title,
   date,
   location,
@@ -87,4 +84,12 @@ const FlexMultimedia = ({
   );
 };
 
-export default FlexMultimedia;
+MissionCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  date: PropTypes.instanceOf(Date).isRequired,
+  location: PropTypes.string.isRequired,
+  responsibilities: PropTypes.array.string.isRequired,
+  technologies: PropTypes.array.string.isRequired,
+};
+
+export default MissionCard;
