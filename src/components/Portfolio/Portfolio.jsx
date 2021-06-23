@@ -33,6 +33,24 @@ const data = [
     technologies: ['Java 8', 'Spring Boot', 'RabbitMQ', 'MongoDB', 'Git'],
   },
   {
+    title: 'Software developer at Flex Multimedia',
+    location: 'Geneva, Switzerland',
+    responsibilities: [
+      'Maintenance on the back-end application',
+      'Implementing new features on the back-end application',
+      'Creating front-end services using ReactJS',
+    ],
+    date: '10/2017 – 04/2018',
+    technologies: [
+      'Java 8',
+      'Spring Boot',
+      'JavaScript',
+      'ReactJS',
+      'MySQL',
+      'Git',
+    ],
+  },
+  {
     title: 'Intern Software developer at Flex Multimedia',
     location: 'Geneva, Switzerland',
     responsibilities: [
